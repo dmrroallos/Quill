@@ -110,29 +110,49 @@ ul {
 }
 /*------------------------COMPONENTS----------------*/
 .btn {
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     text-decoration: none;
 }
 
+/* Primary Button */
 .btn-primary:link, .btn-primary:visited {
-    color: #339af0;
+    color: white;
+    background-color: #339af0;
 }
 
 .btn-primary:hover, .btn-primary:active {
-    color: #1c7ed6;
+    color: white;
+    background-color: #1c7ed6;
 }
 
-.btn-secondary:link,.btn-secondary:visited{
-    color: #9775fa;
+/* Secondary Button */
+.btn-secondary:link, .btn-secondary:visited {
+    color: white;
+    background-color: #9775fa;
 }
 
 .btn-secondary:hover, .btn-secondary:active {
-    color: #7048e8;
+    color: white;
+    background-color: #7048e8;
 }
 
-/*------------------------SSECTIONS----------------*/
+.highlight {
+    color: white;
+}
+
+.highlight-primary {
+    background-color: #339af0;
+}
+
+.highlight-secondary {
+    background-color: #9775fa;
+}
+
+.highlight-tertiary {
+    background-color: #ff922b;
+}
+
+/*------------------------SECTIONS----------------*/
 /* ----HERO SECTION ----*/
 .hero-section {
     text-align: center;
