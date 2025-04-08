@@ -152,6 +152,14 @@ ul {
     background-color: #ff922b;
 }
 
+.logo-md  {
+    width: 100px;
+}
+
+.logo-sm {
+    width: 80px;
+}
+
 /*------------------------SECTIONS----------------*/
 /* ----HERO SECTION ----*/
 .hero-section {
@@ -164,6 +172,11 @@ ul {
     
 }
 
+.feature-img {
+    width: 400px;
+}
+
+
 /* ----CTA SECTION ----*/
 
 .cta-section {
@@ -171,7 +184,10 @@ ul {
 }
 
 .cta-card {
+    text-align: center;
     background-color: #339af0;
+    width: 1000px;
+
 }
 
 /* ----FOOTER SECTION ----*/
@@ -179,6 +195,10 @@ ul {
     text-align: center;
 }
 
+.social-icons {
+    width: 20px;
+}
 
 
-/*  4:48 hours that I stop on course */
+
+/*  5:07 hours that I stop on course */
