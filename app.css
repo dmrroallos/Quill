@@ -144,11 +144,13 @@ ul {
 .btn-secondary:link, .btn-secondary:visited {
     color: white;
     background-color: #9775fa;
+    border: 2px solid #1c7ed6;
 }
 
 .btn-secondary:hover, .btn-secondary:active {
     color: white;
     background-color: #7048e8;
+    border: 2px solid #7048e8;
 }
 
 .highlight {
@@ -217,4 +219,4 @@ ul {
 
 
 
-/*  5:29 hours that I stop on course */
+/*  5:31 border radius hours that I stop on course */
