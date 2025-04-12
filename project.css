@@ -1,3 +1,8 @@
+ * {
+   box-sizing: border-box;
+ }
+ 
+ 
  body {
     background-color: grey;
  }
@@ -23,9 +28,18 @@
     color: blue;
  }
 
+ .head2 {
+   font-size: 50px;
+   font-weight: 900;
+   border: 12px solid violet;
+   width: 300px;
+   height: 70px;
+ }
+
 .sub {
    color: red;
    font-weight: bold;
+   margin: 20px;
 }
 
 .sub-menu2 {
@@ -41,14 +55,24 @@
    padding: 10px 20px;
    border: 5px solid black;
    border-radius: 4px;
+   margin: 10px 20px;
 }
 
 .brd {
    width: 100px;
    height: 100px;
-   background-color: khaki;
-   border: 3px solid black   ;
-   border-radius: 30px;
+   background-color: violet;
+   border-radius: 50px;
+   border-style: double solid;
+   border-color: green;
+   margin: 30px;
 }
 
 
+.ima {
+   width: 500px;
+   height: 500px;
+   padding: 10px;
+   border: 10px solid black;
+   border-radius: 250px;
+}
