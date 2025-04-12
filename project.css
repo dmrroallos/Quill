@@ -42,3 +42,13 @@
    border: 5px solid black;
    border-radius: 4px;
 }
+
+.brd {
+   width: 100px;
+   height: 100px;
+   background-color: khaki;
+   border: 3px solid black   ;
+   border-radius: 30px;
+}
+
+
