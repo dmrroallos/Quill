@@ -87,20 +87,15 @@ p {
 a {
     text-decoration: none;
     font-size: 16px; 
+    display: inline-block;
 }
 
 ul {
     list-style: none;
 }
 
-#green-text {
-        color: green;
-}
-
-.pop-text {
-    color: red;
-    font-weight: 900;
-    text-decoration: red solid underline;
+span {
+    display: inline-block;
 }
 
 .small-text {
@@ -247,5 +242,5 @@ ul {
 }
 
 
-/*  6:18 border radius hours that I stop on course dave */
+/*  6:42 border radius hours that I stop on course dave */
 
