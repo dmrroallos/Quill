@@ -214,6 +214,10 @@ span {
     margin-bottom: 80px;
 }
 
+.feature-heading {
+    padding-bottom: 20px;
+}
+
 
 .feature-img {
     width: 400px;
@@ -234,6 +238,10 @@ span {
     border-radius: 20px;
 }
 
+.cta-heading {
+    margin-bottom: 30px;
+}
+
 /* ----FOOTER SECTION ----*/
 .footer {
     text-align: center;
@@ -244,4 +252,4 @@ span {
 }
 
 
-/*  6:42 border radius hours that I stop on course dave */
+/*  6:57 border radius hours that I stop on course dave */
