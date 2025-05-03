@@ -50,6 +50,7 @@ body {
 
 .container {
     max-width: 1200px;
+    width: 90%;
     margin: 0 auto;
 
 }
@@ -260,4 +261,4 @@ span {
 }
 
 
-/*  7:56 border radius hours that I stop on course dave */
+/*  8:26 border radius hours that I stop on course dave */
