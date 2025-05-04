@@ -40,6 +40,9 @@ Poppins
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
 
 body {
     font-family: 'Poppins' , sans-serif; 
@@ -60,42 +63,41 @@ h1 , h2, h3 , h4 , h5 {
     line-height: 1.2;
     letter-spacing: -2px;
     color:  #212529;
-
 }
 
 
 h1 {
    
-    font-size: 62px;
+    font-size: 6.2rem;
   
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 4.8rem;
 
 }
 
 h3 {
     
-    font-size: 40px;
+    font-size: 4rem;
    
 }
 
 h4 {
-    font-size: 32px;   
+    font-size: 3.2rem; 
 }
 
 h5 {
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 p {
-    font-size: 20px; 
+    font-size: 2rem
 }
 
 a {
     text-decoration: none;
-    font-size: 16px; 
+    font-size: 1.6rem;
     display: inline-block;
 }
 
@@ -108,14 +110,14 @@ span {
 }
 
 .small-text {
-    font-size: 18px;
+    font-size: 1.rem
 
 }
 /*------------------------COMPONENTS----------------*/
 .btn {
-    font-size: 16px;
+    font-size: 1.6rem;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 1.5rem 3rem;
     border-radius: 8px;
 
 }
@@ -158,7 +160,7 @@ span {
 
 .highlight {
     color: white;
-    padding: 5px 10px;
+    padding: 0.5rem 1rem;
     border-radius: 4px;
 }
 
@@ -187,7 +189,7 @@ span {
 /* ----NAVBAR---*/
 
 .navbar{
-    margin-bottom: 200px;
+    margin-bottom: 20rem;
 }
 
  
@@ -195,17 +197,17 @@ span {
 
 .hero-section {
     text-align: center;
-    margin-bottom: 300px;
-   
+    margin-bottom: 30rem;
+
 }
 
 .hero-heading {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 
 }
 
 .hero-paragraph {
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 
 
@@ -213,16 +215,16 @@ span {
 /* ----FEATURES SECTION ----*/
 
 .features-section {
-    margin-bottom: 300px;
+    margin-bottom: 30rem;
 }
 
 .features-main-heading {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 8rem;
 }
 
 .feature-heading {
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
 
 
@@ -235,20 +237,20 @@ span {
 /* ----CTA SECTION ----*/
 
 .cta-section {
-    margin: 300px;
+    margin: 30rem;
 }
 
 .cta-card {
     text-align: center;
     background-color: #339af0;
     max-width: 1000px;
-    padding: 100px 200px;
+    padding: 10rem 20rem;
     border-radius: 20px;
     margin: 0 auto;  
 }
 
 .cta-heading {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 /* ----FOOTER SECTION ----*/
