@@ -186,6 +186,17 @@ span {
 
 /*------------------------SECTIONS----------------*/
 
+
+/* ----HEADER---*/
+
+.header {
+    height: 100vh;
+    min-height: 800px;
+}
+
+
+
+
 /* ----NAVBAR---*/
 
 .navbar{
