@@ -34,6 +34,57 @@ Poppins
 
 /* Adding universal selector later to remove default spacing properties */
 
+:root {
+/* FONT SIZE */
+--text-sm: 12px;
+--text-base: 16px;
+--text-paragraph: 20px ;
+--text-h5:24px;
+--text-h4: 32px;
+--text-h3: 40px;
+--text-h2: 48px;
+--text-h1: 62px;
+
+/* FONT WEIGHT */
+
+--font-weight-normal: 400;
+--font-weight-bold: 700;
+
+/* LINE HEIGHTS */
+
+--line-height-tight: 1.2;
+--line-height-normal: 1.5;
+
+/* LETTER SPACING */
+
+--letter-spacing-tight: -2px;
+
+/* FONT FAMILY */
+
+--font-family: 'Poppins' , sans-serif;
+
+/* COLORS */
+
+--primary-base: #339af0;
+--primary-tint: #d0ebff;
+--primary-shade: #1c7ed6;
+--secondary-base: #9775fa;
+--secondary-tint: #e5dbff;
+--secondary-shade: #7048e8;
+--tertiary-base: #ff922b;
+--tertiary-tint: #ffe8cc;
+--tertiary-shade: #f76707;
+--gre-base: #495057;
+--grey-tint: #f1f3f5;
+--grey-shade: #212529;
+--white: #ffffff;
+--black: #000000;
+
+
+
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -45,10 +96,10 @@ html {
 }
 
 body {
-    font-family: 'Poppins' , sans-serif; 
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-normal);
+    line-height: var(--line-height-normal);
+    color: var(--gre-base);
 }
 
 .container {
@@ -274,4 +325,4 @@ span {
 }
 
 
-/*  9:10 border radius hours that I stop on course dave */
+/*  9:15 border radius hours that I stop on course dave */
